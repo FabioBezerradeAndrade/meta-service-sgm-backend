@@ -1,0 +1,34 @@
+pt-BR:
+  errors:
+    not_found: "%{resource} não encontrado(a)."
+    unauthorized: "Você não tem autorização para realizar esta ação."
+    parameter_missing: "Parâmetro obrigatório ausente: %{param}."
+    messages:
+      invalid: "é inválido"
+      not_found: "Registro não encontrado"
+      unauthorized: "Você não tem autorização para realizar esta ação"
+      parameter_missing: "O parâmetro %{param} é obrigatório"
+      missing_id: "O parâmetro ID é obrigatório"
+      address_fields_not_allowed: "Os campos 'meeting_point' e 'landmark' só podem ser preenchidos para colaboradores."
+
+  activerecord:
+    models:
+      contact: "Contact"
+    attributes:
+      contact:
+        numero: "Número"
+        email: "Email"
+        whatsapp: "WhatsApp"
+        telegram: "Telegram"
+        signal: "Signal"
+      employee:
+        escolaridades:
+          ensino_fundamental_incompleto: "Ensino Fundamental Incompleto"
+          ensino_fundamental_completo: "Ensino Fundamental Completo"
+          ensino_medio_incompleto: "Ensino Médio Incompleto"
+          ensino_medio_completo: "Ensino Médio Completo"
+          ensino_superior_incompleto: "Ensino Superior Incompleto"
+          ensino_superior_completo: "Ensino Superior Completo"
+          pos_graduacao: "Pós-graduação"
+          mestrado: "Mestrado"
+          doutorado: "Doutorado"
